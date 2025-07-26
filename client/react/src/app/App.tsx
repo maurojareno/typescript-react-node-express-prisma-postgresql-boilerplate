@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import { SampleList } from '../features/sample-list';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>Vite + React + TS Client</h1>
+      <SampleList />
     </>
   )
 }
