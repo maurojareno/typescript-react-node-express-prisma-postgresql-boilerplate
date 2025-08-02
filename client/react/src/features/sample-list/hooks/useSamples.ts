@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getSamples } from '../services/sampleList.api';
-import { Sample } from '../types';
+import type { Sample }  from '../types';
 
 export function useSamples() {
   const [samples, setSamples] = useState<Sample[]>([]);

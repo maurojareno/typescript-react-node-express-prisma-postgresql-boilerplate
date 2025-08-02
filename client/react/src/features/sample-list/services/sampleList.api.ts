@@ -1,4 +1,4 @@
-import { Sample } from '../types';
+import type { Sample } from '../types';
 
 export const getSamples = async (): Promise<Sample[]> => {
   const res = await fetch('http://localhost:4000/api/samples');
